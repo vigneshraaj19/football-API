@@ -1,0 +1,43 @@
+.header{
+    display: grid;
+    justify-items: flex-start;
+    font-family: 'Orbitron', sans-serif;
+    background:linear-gradient(to right,rgb(0, 0, 0) 5%,black 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+h2{
+    font-family:'Orbitron', sans-serif;
+    color: black;
+}
+.card{
+    padding: 10px;
+    background-color:black ;
+    border-radius: 15px;
+    display: grid;
+    justify-items:flex-start;
+    font-family:'Special Elite', cursive;
+    color: white;
+}
+.displayResults{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1rem;
+}
+
+b{
+    color: white;
+    font-family:'Orbitron', sans-serif;
+}
+#btn{
+    font-family:'Orbitron', sans-serif;
+    background-color:rgb(85, 0, 0);
+    border-radius: 1rem;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
